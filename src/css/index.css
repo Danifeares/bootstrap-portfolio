@@ -2,6 +2,7 @@
 
 :root {
   --salmao: #D97E8E;
+  --salmao-claro: #e0bac1;
   --rosa: #fccde9;
   --roxo-claro: #CFB6F2;
   --roxo-escuro: #464659;
@@ -20,7 +21,7 @@
 }
 
 body {
-  background-color: var(--rosa);
+  background-color: var(--salmao-claro);
 }
 
 .card {
