@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+:root {
+  --salmao: #D97E8E;
+  --rosa: #fccde9;
+  --roxo-claro: #CFB6F2;
+  --roxo-escuro: #464659;
+  --salmao-escuro: #A65353;
+}
+
+* {
+  font-family: 'Poppins', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--roxo-escuro) !important;
+}
+
+.navbar-nav > li > a.active {
+  color: var(--salmao-escuro) !important;
+}
+
+body {
+  background-color: var(--rosa);
+}
+
+.card {
+  background-color: var(--salmao);
+}
+
+@media (min-width: 768px) { 
+  .group-card {
+      height: 18rem !important;
+      overflow: hidden;
+  }
+}
