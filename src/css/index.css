@@ -28,9 +28,12 @@ body {
   background-color: var(--salmao);
 }
 
+.group-card {
+  overflow: hidden;
+}
+
 @media (min-width: 768px) { 
   .group-card {
       height: 18rem !important;
-      overflow: hidden;
   }
 }
